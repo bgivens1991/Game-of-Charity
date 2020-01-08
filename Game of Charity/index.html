@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Fight Night 153</title>
+  <link rel="stylesheet" href="fn153.css" />
+  <script src="fn153.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js"
+    integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <div class="nav-box">
+    <h2 id="main-logo">Logo</h2>
+  </div>
+
+  <!-- Main Event Video Highlights with Live Button -->
+  <div class="top-container">
+
+    <!-- Main Event Highlight video-->
+    <div class="video-overlay">
+      <p id="overlay-text">FIGHT NIGHT 153:<br />Gustafsson vs. Smith</p>
+      <div class="worlds-button-section">
+        <button class="button button1 live-button">
+          <i class="fas fa-circle animate-flicker"></i>
+          <h1 id="live-text">LIVE NOW</h1>
+        </button>
+      </div>
+    </div>
+    <video autoplay muted loop id="myVideo">
+      <source src="./FN-153.mp4" type="video/mp4" />
+    </video>
+
+    <section class="rest-card">
+
+      <div class="left-box"></div>
+      <div class="right-box"></div>
+
+      <h1 id="rest-title">Main Card</h1>
+
+      <div class="gust-vs-smith" style="filter: brightness(100%)">
+
+        <img class="left-rest" src="FN-153 Fighters/GUSTAFSSON_headshot.png">
+        <img class="right-rest" src="FN-153 Fighters/SMITH_headshot.png">
+      </div>
+
+      <h2 class="main-event">Gustafsson vs. Smith</h2>
+
+      <div class="manuwa-vs-rakic" style="filter: brightness(50%)">
+
+        <img class="left-rest" src="FN-153 Fighters/MANUWA_headshot.png">
+        <img class="right-rest" src="FN-153 Fighters/RAKIC_headshot.png">
+      </div>
+
+      <h2 class="co-event">Manuwa vs. Rakic</h2>
+
+      <div class="latifi-vs-oezdemir" style="filter: brightness(50%)">
+
+        <img class="left-rest" src="FN-153 Fighters/IlirLatifi_Headshot.png">
+        <img class="right-rest" src="FN-153 Fighters/OEZDEMIR_headshot.png">
+      </div>
+
+      <h2 class="last-event">Latifi vs. Oezdemir</h2>
+
+    </section>
+
+    <!-- Main Event Fighter Stats-->
+    <section class="showcase">
+      <div class="main-container">
+
+        <section>
+          <img id="left-fighter" src="FN-153 Fighters/GUSTAFSSON_ALEXANDER_L.png" />
+
+          <div class="right-name" style="right:60px">
+            <p id="rjust-name">Anthony Smith</p>
+            "<span id="right-nickname">LIONHEART</span>"
+          </div>
+          <img id="right-fighter" src="FN-153 Fighters/SMITH_ANTHONY_R.png" />
+          <div class="left-name" style="left:30px">
+            <p id="ljust-name">Alexander Gustafsson</p>
+            "<span id="left-nickname">THE
+              MAULER</span>"
+          </div>
+        </section>
+        <section class="tale-tape">
+
+          <!-- Gustafsson Stats-->
+          <div class="left-stats">
+            <h2 class="red-corner">RED CORNER</h2>
+            <hr />
+            <h5 class="red-record">18-6-0</h5>
+            <hr />
+            <h5 class="red-height">6' 5"</h5>
+            <hr />
+            <h5 class="red-weight-class">205 lbs.</h5>
+            <hr />
+            <h5 class="red-reach">79"</h5>
+            <hr />
+            <h5 class="red-stance">Orthodox</h5>
+            <hr />
+            <h5 class="charity-pick"><a id="red-charity" href="https://childhood.se/" target="_blank">World Childhood
+                Foundation</a></h5>
+          </div>
+
+          <!-- Category Titles-->
+          <div class="stat-category">
+            <h2 class="stat-title">TALE OF THE TAPE</h2>
+            <hr />
+            <h5 class="record">Record</h5>
+            <hr />
+            <h5 class="height">Height</h5>
+            <hr />
+            <h5 class="weight-class">Weight</h5>
+            <hr />
+            <h5 class="reach">Reach</h5>
+            <hr />
+            <h5 class="stance">Stance</h5>
+            <hr />
+            <h5 class="charity-pick">Charity</h5>
+          </div>
+
+          <!-- Smith Stats-->
+          <div class="right-stats">
+            <h2 class="blue-corner">BLUE CORNER</h2>
+            <hr />
+            <h5 class="blue-record">32-14-0</h5>
+            <hr />
+            <h5 class="blue-height">6' 4"</h5>
+            <hr />
+            <h5 class="blue-weight-class">205 lbs.</h5>
+            <hr />
+            <h5 class="blue-reach">76"</h5>
+            <hr />
+            <h5 class="blue-stance">Orthodox</h5>
+            <hr />
+            <h5 class="charity-pick"><a id="blue-charity" href="http://goodsamcc.org/" target="_blank">Good
+                Samaritan</a></h5>
+          </div>
+        </section>
+
+        <!-- Other event showcase -->
+        <section class="mid-container">
+          <div class="ufc-238">
+            <p class="event-header">
+              <h2>Cejudo vs. Moraes</h2></br>
+              <h3>- June 8 -</h3>
+            </p>
+            <div class="coming-overlay"></div>
+          </div>
+          <div class="bell-222">
+
+            <p class="event-header">
+              <h2>Bellator 222:</br>Machida vs. Sonnen</h2></br>
+              <h3>- June 14 -</h3>
+            </p>
+            <div class="coming-overlay"></div>
+          </div>
+          <div class="tc-2">
+            <p class="event-header">
+              <h2>Third Coast Grappling 2:</br>Cornelius vs. Meregali</h2></br>
+              <h3>- June 21 -</h3>
+            </p>
+            <div class="coming-overlay"></div>
+          </div>
+
+          <div class="coming-events">Upcoming Events</div>
+
+          <div class="worlds">
+
+            <p class="event-header">
+              <h3>- June 1 -</h3>
+            </p>
+            <div class="coming-overlay"></div>
+          </div>
+
+        </section>
+
+    </section>
+
+    <!-- Mailing List -->
+    <section class="mailing-list">
+      <p id="mailing-text">Join our mailing list for updates on future events and results!</p>
+    </section>
+
+    <!-- Footer + Contacts -->
+    <section class="footer">
+      <div class="foot-footer">myLogo</div>
+    </section>
+  </div>
+  <script src="fn153.js"></script>
+</body>
+
+</html>
